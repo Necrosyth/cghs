@@ -23,7 +23,7 @@ export const products = [
     title: "Rogue",
     link: "https://userogue.com",
     thumbnail:
-      "/School-4.jpeg",
+      "/school-4.jpeg",
   },
 
   {
