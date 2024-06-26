@@ -9,12 +9,7 @@ function Footer() {
             Calcutta Girls' High School was founded in 1856 under the patronage of Governor General of India, Lord Canning. It was supported by the Evangelical denominations of the city. Management of the school was handed over to Bishop J.M.Thoburn of the Methodist Episcopal Church .
             </p>
           </div>
-          <Button
-                    borderRadius="1.75rem"
-                    className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                    >
-                    Explore courses
-                    </Button>
+   
           <div>
             <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
             <ul>
