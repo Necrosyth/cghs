@@ -10,7 +10,7 @@ export function SparklesPreview() {
         fill="white"
       />
        <img src="/cghs-logo.png" alt="img not visible" className="size-56"/>
-      <h1 className="md:text-7xl text-xl lg:text-5xl font-bold text-center text-white relative z-20">
+      <h1 className="md:text-7xl text-xl font-serif lg:text-5xl font-bold text-center text-white relative z-20">
        Calcutta Girls High School
       </h1>
       <div className="w-[40rem] h-40 relative">

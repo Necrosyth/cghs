@@ -14,6 +14,9 @@ const config: Config = {
   darkMode: "class",
   theme: {
     extend: {
+      fontFamily: {
+        'playwrite': ['"Playwrite NZ"', 'sans-serif'],
+      },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
       },
