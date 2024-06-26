@@ -5,7 +5,6 @@ import { SparklesCore } from './ui/sparkles'
 import { Spotlight } from './ui/spotlight'
 import {Button} from './ui/moving-border'
 
-
 export function HeroSection () {
   return (
     <div  className=" h-[50rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">

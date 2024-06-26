@@ -1,11 +1,14 @@
 "use client";
 import React from "react";
 import { SparklesCore } from "./ui/sparkles";
-
+import { Spotlight } from "./ui/spotlight";
 export function SparklesPreview() {
   return (
     <div className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-
+       <Spotlight
+        className="-top-40 left-0 md:left-60 md:-top-20"
+        fill="white"
+      />
        <img src="/cghs-logo.png" alt="img not visible" className="size-56"/>
       <h1 className="md:text-7xl text-xl lg:text-5xl font-bold text-center text-white relative z-20">
        Calcutta Girls High School
