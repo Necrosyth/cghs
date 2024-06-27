@@ -6,7 +6,7 @@ import { Button } from "./ui/moving-border";
 export function SparklesPreview() {
   return (
 
-    <div className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+    <div className="h-[40rem] w-full bg-sky-800  flex flex-col items-center justify-center overflow-hidden rounded-md">
   
        <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
@@ -34,7 +34,7 @@ export function SparklesPreview() {
         />
 
         {/* Radial Gradient to prevent sharp edges */}
-        <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
+        <div className="absolute inset-0 w-full h-full bg-sky-800 [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
       </div>
 
     </div>
