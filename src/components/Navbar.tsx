@@ -19,7 +19,7 @@ const Navbar = () => {
         setScrolling(false);
       }
     };
-
+ 
     window.addEventListener("scroll", handleScroll);
 
     return () => {
@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`flex justify-between items-center bg-blue-4 00 h-20 p-2 md:p-4 w-[80%] m-auto fixed left-1/2 translate-x-[-50%] rounded-full drop-shadow-xl z-20 ${
+        className={`flex justify-between items-center bg-[#4da97c] h-20 p-2 md:p-4 w-[80%] m-auto fixed left-1/2 translate-x-[-50%] rounded-full drop-shadow-xl z-20 ${
          scrolling ? "top-0 w-full rounded-full md:p-6" : "fixed top-5 rounded-full"
         }`}
       >
