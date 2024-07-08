@@ -30,13 +30,13 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`flex justify-between items-center bg-[#4da97c] h-20 p-2 md:p-4 w-[80%] m-auto fixed left-1/2 translate-x-[-50%] rounded-full drop-shadow-xl z-20 ${
-         scrolling ? "top-0 w-full rounded-full md:p-6" : "fixed top-5 rounded-full"
+        className={`flex justify-between items-center bg-[#000000] h-20 p-2 md:p-4 w-[80%] m-auto fixed left-1/2 translate-x-[-50%] drop-shadow-xl z-20 ${
+         scrolling ? "top-0 w-full md:p-6" : "fixed top-5 rounded-full"
         }`}
       >
    
         <ul
-          className={`md:flex gap-12 font-medium text-black [&>li]:cursor-pointer absolute md:static top-20 max-md:p-3  text-center ${
+          className={`md:flex gap-12 font-medium text-white [&>li]:cursor-pointer absolute md:static top-20 max-md:p-3  text-center ${
             openMenu ? "" : "hidden"
           } ${scrolling && openMenu ? "top-12 w-full right-0 rounded-b-none" : "rounded-b-xl right-5"}`}
         >
@@ -65,7 +65,7 @@ const Navbar = () => {
 
         {/* MOBILE MENU ICONS */}
         <div className="md:hidden">
-          <button className="text-gray-700" onClick={menuHandler} aria-label="Menu">
+          <button className="text-white" onClick={menuHandler} aria-label="Menu">
             {openMenu ? <GrClose size={25} /> : <FiMenu size={25} />}
           </button>
         </div>
